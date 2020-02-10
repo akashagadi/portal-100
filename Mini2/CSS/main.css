@@ -1,0 +1,284 @@
+*,head,body{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(253, 253, 253);
+}
+
+/*---------------------------------Header---------------------------------*/
+header {
+    height: 80px;
+    line-height: 80px;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(to right,rgba(48,194,208,1) 0%,rgb(0, 60, 255) 100%);
+    box-shadow: 0px 0px 17px 0px #4e555b;
+}
+
+#id1 ul{
+    list-style: none;
+}
+#id1 ul li{
+    display: inline-block;
+}
+#id1 nav{
+    float: right;
+}
+#id1 li a{
+    padding-right: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#id1 li a:hover{
+    color: rgb(255, 174, 0);
+    transition: all 0.3s ease-in;
+}
+.logo{
+    padding-left: 0px;
+}
+/*---------------------------------Header End---------------------------------*/
+
+
+/*---------------------------------Footer---------------------------------*/
+footer{
+    background-color: #252525;
+    width: 100%;
+    color: white;
+    left: 0;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer li{
+    margin-top: 5;
+}
+.column {
+    float: left;
+    width: 31.8%;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+.footname{
+    color: white;
+    text-decoration: none;
+}
+
+/*---------------------------------Icons---------------------------------*/
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+/*---------------------------------Footer End---------------------------------*/
+
+/*---------------------------------Buttons---------------------------------*/
+.b1{
+    padding: 8px 20px;
+    margin: 8px 0;
+    background-color: blueviolet;
+    border: 0cm;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+
+}
+.b2{
+    padding: 8px 20px;
+    margin: 8px 0;
+    background: linear-gradient(to right,rgba(48,194,208,1) 0%,rgb(0, 60, 255) 100%);
+    border: 0cm;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    bottom: 0px;
+}
+
+/*---------------------------------Text Elements---------------------------------*/
+.Text{
+    color: white;
+    font-size: 20px;
+}
+
+.Text-black{
+    color: black;
+    font-size: 20px;
+}
+
+.topmargin{
+    margin-top: 30px;
+    font-family: fantasy;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.topmargin-black{
+    margin-top: 30px;
+    font-family: fantasy;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.regType{
+    font-family: fantasy;
+    font-size: 25px;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.regType-black{
+    font-family: fantasy;
+    font-size: 25px;
+    margin-top: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.forType{
+    font-family: fantasy;
+    font-size: 30px;
+    margin-top: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+.forType-black{
+    font-family: fantasy;
+    font-size: 30px;
+    margin-top: 40px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+/*---------------------------------Input Elements---------------------------------*/
+.input-type-1 {
+    padding: 8px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/*---------------------------------Profiles Part---------------------------------*/
+.column-1 {
+    float: left;
+    width: 40%;
+    padding: 60px;
+    text-align: justify;
+}
+
+.row-1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column-1 {
+        width: 100%;
+    }
+}
+
+.column-2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column-2 {
+        width: 100%;
+    }
+}
+
+.box-style1{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 0px #4e555b;
+	
+}
+
+.side2{
+    margin-bottom: 30px;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+/*---------------------------------Search Bar---------------------------------*/
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+}
+  
+form.example button {
+    float: left;
+    width: 15%;
+    background: #2196F3;
+    color: white;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+  
+form.example button:hover {
+    background: #0b7dda;
+}
+  
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
